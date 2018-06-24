@@ -1,6 +1,6 @@
 <?php
 session_start();
-if(empty($_SESSION['id_user'])||isset($_SESSION['companyLogged'])) {
+if(empty($_SESSION['id_user'])||isset($_SESSION['companyLogged'])){
   header("Location: ../index.php");
   exit();
 }

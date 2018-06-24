@@ -1,5 +1,5 @@
 <?php
-if(empty($_SESSION['id_user'])||isset($_SESSION['companyLogged'])) {
+if(isset($_SESSION['id_user'])||isset($_SESSION['userLogged'])){
   header("Location: ../index.php");
   exit();
 }
