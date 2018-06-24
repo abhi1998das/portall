@@ -1,9 +1,9 @@
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "job_portal";
+$servername = "den1.mysql6.gear.host";
+$username = "intern1";
+$password = "To6f?154?3kM";
+$dbname = "intern1";
 
 //Create Connection
 $conn = new mysqli($servername, $username, $password, $dbname);
